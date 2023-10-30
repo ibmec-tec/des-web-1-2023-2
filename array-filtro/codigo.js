@@ -11,6 +11,8 @@ pesquisa.style.textAlign = 'center';
 btn_pesquisar.innerHTML = "Pesquisar";
 btn_pesquisar.onclick = () => {filtrar(texto_pesquisado.value)};
 
+texto_pesquisado.onchange = () => {filtrar(texto_pesquisado.value)};
+
 pesquisa.appendChild(texto_pesquisado);
 pesquisa.appendChild(btn_pesquisar);
 body.appendChild(pesquisa);
@@ -43,6 +45,7 @@ const cria_cartao = (entrada) => {
 
 
 const constroi_atletas = (lista_atletas) => {
+    div_container.innerHTML = "";
     for (const atleta of lista_atletas){
         cria_cartao(atleta);
     }
@@ -55,6 +58,6 @@ const filtrar = (entrada) => {
     constroi_atletas(filtrado);
 }
 
-// constroi_atletas(filtrado);  
+constroi_atletas(atletas);  
 
 
