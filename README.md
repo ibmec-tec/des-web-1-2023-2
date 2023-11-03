@@ -9,7 +9,7 @@ https://youtu.be/aHUtMbJw8iA?si=_LX5UMMKk7jdeV0B
 ## Envio AC
 Enviar os repositórios com os trabalhos feitos durante o período:
 - email: des-web@mangeli.com.br
-- assunto: [Desenvolvimeneto Web - manhã - AC]
+- assunto: [Desenvolvimento Web - manhã - AC]
 - conteúdo:
    1. nome
    2. endereço do repositório
