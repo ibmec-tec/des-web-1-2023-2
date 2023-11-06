@@ -39,7 +39,20 @@ const cria_cartao = (entrada) => {
 }
 
 const manipulaClick = (e) => {
-    console.log(e.target.closest('article').dataset.id);
+    const artigo = e.target.closest('article');
+    document.cookie = `id=${artigo.dataset.id}`;
+    document.cookie = `altura=${artigo.dataset.altura}`;
+    document.cookie = `nome_completo=${artigo.dataset.nome_completo}`;
+    document.cookie = `nascimento=${artigo.dataset.nascimento}`;
+
+    console.log(acha_cookie('id'));
+}
+
+const acha_cookie = (chave) => {
+    const lista_de_cookies = document.cookie.split("; ");
+    const procurado = lista_de_cookies.find(
+        (e)=> e.startsWith(chave));
+    return procurado.split('=')[1];
 }
 
 const pega_json = async (caminho) => {
