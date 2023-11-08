@@ -62,6 +62,8 @@ const manipulaClick = (e) => {
     console.log(acha_cookie('id'));
     console.log(localStorage.getItem('nome_completo'));
     console.log(JSON.parse(sessionStorage.getItem('dados')));
+
+    window.location = `outra.html?id=${artigo.dataset.id}&nome_completo=${artigo.dataset.nome_completo}`;
 }
 
 const acha_cookie = (chave) => {
