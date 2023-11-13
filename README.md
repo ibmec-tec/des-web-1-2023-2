@@ -17,10 +17,9 @@ Enviar os repositórios com os trabalhos feitos durante o período:
 ## Envio P2
 Site com descrição do trabalho: https://github.com/ibmec-tec/p2-desenvolvimento-web-2023-2  
 
-Enviar os repositórios com os trabalhos feitos durante o período:
-
 - email: des-web@mangeli.com.br  
 - assunto: [Desenvolvimento Web - manhã - P2]  
 - conteúdo:  
    1. nome  
-   2. endereço do repositório  
+   2. endereço do repositório
+   3. link do github pages
