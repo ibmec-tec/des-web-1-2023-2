@@ -13,3 +13,12 @@ Enviar os repositórios com os trabalhos feitos durante o período:
 - conteúdo:
    1. nome
    2. endereço do repositório
+
+## Envio P2
+Enviar os repositórios com os trabalhos feitos durante o período:
+
+email: des-web@mangeli.com.br
+assunto: [Desenvolvimento Web - manhã - P2]
+conteúdo:
+nome
+endereço do repositório
